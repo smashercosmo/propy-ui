@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test works 1`] = `
+"import { c } from \\"classy-ui\\";
+import React from 'react';
+import { Box } from 'components/Box/Box';
+type TestProps = {
+  children: React.ReactNode;
+};
+
+function Test(props) {
+  const {
+    children
+  } = props;
+  return <Box className={c(\\"color-red-500\\")}>{children}</Box>;
+}"
+`;

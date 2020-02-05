@@ -1,0 +1,7 @@
+{
+  "name": "babel-plugin-propy-ui",
+  "private": true,
+  "main": "../lib/plugin",
+  "module": "../es/plugin",
+  "jsnext:main": "../es/plugin"
+}
